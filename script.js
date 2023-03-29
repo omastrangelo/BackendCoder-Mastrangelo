@@ -54,5 +54,4 @@ const execute = async () => {
     //Printeamos los productos ya borrados (vacio)
     console.log(await productManager.getProducts())
 }
-
 execute()
